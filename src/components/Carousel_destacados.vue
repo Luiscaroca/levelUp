@@ -4,7 +4,7 @@
     data-aos-duration="500"
   >
     <div
-      id="carousel"
+      id="carouselDestacados"
       class="carousel slide"
       data-bs-ride="carousel"
     >
@@ -34,7 +34,7 @@
       <button
         class="carousel-control-prev"
         type="button"
-        data-bs-target="#carousel"
+        data-bs-target="#carouselDestacados"
         data-bs-slide="prev"
       >
         <span
@@ -46,7 +46,7 @@
       <button
         class="carousel-control-next"
         type="button"
-        data-bs-target="#carousel"
+        data-bs-target="#carouselDestacados"
         data-bs-slide="next"
       >
         <span

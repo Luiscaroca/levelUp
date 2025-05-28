@@ -1,5 +1,9 @@
 <template>
-  <div><Carousel /></div>
+  <div>
+    <Carousel_destacados />
+    <Productos />
+    <Carousel />
+  </div>
 </template>
 
 <style scoped>
@@ -17,9 +21,13 @@ small {
 </style>
 
 <script>
+import Carousel_destacados from "../components/Carousel_destacados.vue";
+import Productos from "../components/Productos.vue";
 import Carousel from "../components/Carousel.vue";
 export default {
   components: {
+    Carousel_destacados,
+    Productos,
     Carousel,
   },
 };

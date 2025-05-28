@@ -54,22 +54,22 @@
         >
           <hr class="d-md-none d-lg-block" />
           <ul class="navbar-nav mx-auto">
-            <!-- <li class="nav-item">
+            <li class="nav-item">
               <a
-                href="#sobre_mi"
+                href="#productos"
                 class="nav-link"
               >
-                Sobre mí
+                Productos
               </a>
             </li>
             <li class="nav-item">
               <a
-                href="#servicios"
+                href="#carousel"
                 class="nav-link"
               >
-                Servicios
+                Carrusel
               </a>
-            </li>
+              <!-- </li>
             <li class="nav-item">
               <a
                 href="#formacion"
@@ -100,6 +100,7 @@
                 Preguntas frecuentes
               </a>
             </li> -->
+            </li>
           </ul>
 
           <!-- enlaces redes sociales -->
