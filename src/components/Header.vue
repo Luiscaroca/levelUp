@@ -54,7 +54,7 @@
         >
           <hr class="d-md-none d-lg-block" />
           <ul class="navbar-nav mx-auto">
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a
                 href="#sobre_mi"
                 class="nav-link"
@@ -99,7 +99,7 @@
               >
                 Preguntas frecuentes
               </a>
-            </li>
+            </li> -->
           </ul>
 
           <!-- enlaces redes sociales -->

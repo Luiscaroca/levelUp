@@ -16,6 +16,7 @@ En esta Landing Page se pueden encontrar distintas dependencias como pueden ser:
 - Integración de <strong>bootstrap y sus respectivos íconos.</strong>
 - <strong>Dependencias de node básicas.</strong>
 - Implementación de <strong>vue-router</strong>, para el control de rutas que no existen dentro del sitio.
+- Integración de <strong>AOS</strong>, para la animación de componente durante el scroll.
 
 Se irán agregando nuevas funciones a medida que la plantilla vaya evolucionando.
 

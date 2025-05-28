@@ -1,4 +1,6 @@
-<template></template>
+<template>
+  <div><Carousel /></div>
+</template>
 
 <style scoped>
 h4 {
@@ -14,21 +16,11 @@ small {
 }
 </style>
 
-<!-- <script>
-import SobreMi from "../components/SobreMi.vue";
-import Mapa from "../components/Mapa.vue";
-import Agendar from "../components/Agendar.vue";
-import PreguntasFrecuentes from "../components/PreguntasFrecuentes.vue";
-import Servicios from "../components/Servicios.vue";
-import Formacion from "../components/Formacion.vue";
+<script>
+import Carousel from "../components/Carousel.vue";
 export default {
   components: {
-    SobreMi,
-    Servicios,
-    Formacion,
-    Mapa,
-    Agendar,
-    PreguntasFrecuentes,
+    Carousel,
   },
 };
-</script> -->
+</script>

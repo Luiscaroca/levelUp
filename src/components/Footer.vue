@@ -12,7 +12,7 @@
             </div>
             <h4>Redes sociales:</h4>
             <div class="mb-4 mb-md-0">
-              <ul class="navbar-nav flex-row flex-wrap">
+              <ul class="navbar-nav flex-row justify-content-center w-50">
                 <li class="nav-item col-1 col-md-auto">
                   <a
                     class="h4"

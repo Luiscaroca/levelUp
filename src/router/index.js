@@ -26,4 +26,8 @@ const router = createRouter({
   routes,
 });
 
+router.beforeEach((to, from) => {
+  document.title = to.meta?.title ?? "Level Up Estampados";
+});
+
 export default router;
