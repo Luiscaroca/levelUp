@@ -23,7 +23,7 @@
         <!-- icono -->
         <a
           class="navbar-brand"
-          href="#"
+          href="/"
         >
           <img
             class="img-fluid d-inline-block align-text-top"

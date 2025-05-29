@@ -1,7 +1,9 @@
 import { createRouter, createWebHistory } from "vue-router";
-// HEADER
 import Home from "../views/Home.vue";
-// FOOTER
+import Tazon from "../views/productos/Tazon.vue";
+import Botella from "../views/productos/Botella.vue";
+import Mousepad from "../views/productos/Mousepad.vue";
+import Fotoroca from "../views/productos/Fotoroca.vue";
 
 const routes = [
   // RUTAS HEADER
@@ -9,7 +11,31 @@ const routes = [
     path: "/",
     name: "home",
     component: Home,
-  }, // FIN OTRAS RUTAS
+  },
+
+  // RUTAS PRODUCTOS
+  {
+    path: "/productos/tazon",
+    name: "tazon",
+    component: Tazon,
+  },
+  {
+    path: "/productos/botella",
+    name: "botella",
+    component: Botella,
+  },
+  {
+    path: "/productos/mousepad",
+    name: "mousepad",
+    component: Mousepad,
+  },
+  {
+    path: "/productos/fotoroca",
+    name: "fotoroca",
+    component: Fotoroca,
+  },
+  // FIN RUTAS PRODUCTOS
+
   // RUTAS FOOTER
 
   // FIN RUTAS FOOTER

@@ -1,0 +1,66 @@
+<template>
+  <div class="container">
+    <h1>Tazón</h1>
+    <ul class="list-group">
+      <li class="list-group-item">
+        <h2>{{ tazon.nombre }}</h2>
+        <p>{{ tazon.descripcion }}</p>
+      </li>
+    </ul>
+  </div>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      tazon: {
+        nombre: "Tazón de cerámica",
+        descripcion: "Tazón de cerámica blanco con diseño geométrico",
+      },
+    };
+  },
+};
+</script>
+
+<style scoped>
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.list-group {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-group-item {
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.list-group-item:last-child {
+  border-bottom: none;
+}
+
+h1 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 16px;
+  color: #666;
+}
+</style>
