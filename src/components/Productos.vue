@@ -110,6 +110,32 @@
         </div>
       </div>
       <!-- Fin de una tarjeta -->
+      <!-- Inicio de una tarjeta -->
+      <div class="col">
+        <div
+          class="card h-100 mx-auto"
+          style="width: 25rem"
+        >
+          <img
+            src="../assets/productos_img/placeholder.png"
+            class="card-img-top"
+            alt="Foto foto roca"
+          />
+          <div class="card-body">
+            <h5 class="card-title fw-bold">{{ shopero.nombre }}</h5>
+            <h6 class="card-title fw-bold">{{ shopero.precio }}</h6>
+            <p class="card-text">
+              {{ shopero.descripcion }}
+            </p>
+            <a
+              href="/productos/shopero"
+              class="btn btn-primary mt-auto text-white"
+              >{{ boton.texto }}</a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- Fin de una tarjeta -->
     </div>
   </div>
 </template>
@@ -139,6 +165,11 @@ export default {
       fotoroca: {
         nombre: "Foto roca",
         precio: "$10.000",
+        descripcion: "lorem ipsum dolor sit amet",
+      },
+      shopero: {
+        nombre: "Shopero",
+        precio: "$8.000",
         descripcion: "lorem ipsum dolor sit amet",
       },
     };

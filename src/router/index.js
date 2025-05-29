@@ -4,6 +4,7 @@ import Tazon from "../views/productos/Tazon.vue";
 import Botella from "../views/productos/Botella.vue";
 import Mousepad from "../views/productos/Mousepad.vue";
 import Fotoroca from "../views/productos/Fotoroca.vue";
+import Shopero from "../views/productos/Shopero.vue";
 
 const routes = [
   // RUTAS HEADER
@@ -33,6 +34,11 @@ const routes = [
     path: "/productos/fotoroca",
     name: "fotoroca",
     component: Fotoroca,
+  },
+  {
+    path: "/productos/shopero",
+    name: "shopero",
+    component: Shopero,
   },
   // FIN RUTAS PRODUCTOS
 
