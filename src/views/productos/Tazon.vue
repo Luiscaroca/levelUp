@@ -15,8 +15,8 @@ export default {
   data() {
     return {
       tazon: {
-        nombre: "Tazón de cerámica",
-        descripcion: "Tazón de cerámica blanco con diseño geométrico",
+        nombre: "Tazón",
+        descripcion: "Tazón",
       },
     };
   },
@@ -47,20 +47,5 @@ export default {
 
 .list-group-item:last-child {
   border-bottom: none;
-}
-
-h1 {
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-h2 {
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-p {
-  font-size: 16px;
-  color: #666;
 }
 </style>
