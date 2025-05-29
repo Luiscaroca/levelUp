@@ -41,7 +41,7 @@
           class="carousel-control-prev-icon"
           aria-hidden="true"
         ></span>
-        <span class="visually-hidden">Previous</span>
+        <span class="visually-hidden">Anterior</span>
       </button>
       <button
         class="carousel-control-next"
@@ -53,7 +53,7 @@
           class="carousel-control-next-icon"
           aria-hidden="true"
         ></span>
-        <span class="visually-hidden">Next</span>
+        <span class="visually-hidden">Siguiente</span>
       </button>
     </div>
   </div>

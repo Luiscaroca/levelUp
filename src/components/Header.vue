@@ -56,7 +56,7 @@
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
               <a
-                href="#productos"
+                href="/#productos"
                 class="nav-link"
               >
                 Productos
@@ -64,7 +64,7 @@
             </li>
             <li class="nav-item">
               <a
-                href="#carousel"
+                href="/#carousel"
                 class="nav-link"
               >
                 Carrusel
